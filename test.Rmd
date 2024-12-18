@@ -1,0 +1,14 @@
+---
+title: "Untitled"
+author: "Spondon"
+date: "2024-12-18"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
