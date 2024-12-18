@@ -1,0 +1,40 @@
+---
+title: "Latex"
+shorttitle: "test"
+author: "Spondon"
+date: "2024-12-12"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+```{r}
+library(alr4)
+plot(x=Heights$mheight, y=Heights$dheight, col="brown" ,pch=18)
+```
+
+Einstein's equation: $$
+E = mc^2
+$$
+
+The time derivative of velocity: $$
+\dot{v}
+$$
+Another eqn:&nbsp;&nbsp;$a^2 + b^2 = c^2$
+
+**12**  
+Dot
+**notation**
+tnt
+
+\newpage
+```{r}
+library(alr4)
+plot(x=Heights$mheight, y=Heights$dheight, col="red" ,pch=18)
+```
